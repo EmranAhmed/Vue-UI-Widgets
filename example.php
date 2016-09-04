@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/vue-ui-widgets.css" />
 </head>
 <body>
-<?php include_once 'components/vue.widgets.php';?>
+<?php include_once 'widgets/vue.widgets.php';?>
 <div id="app">
     <h2>Modal</h2>
     <button @click="show = true">Show Modal</button>
