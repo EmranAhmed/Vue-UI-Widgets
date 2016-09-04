@@ -84,13 +84,17 @@
 }
 
 /* Add some padding inside the card container */
-.card-header,.card-content,.card-footer{
-    padding: 15px 0;
+.card-header{
+    padding: 10px 0 5px 0;
+}
+.card-content{
+    padding: 0 0 5px 0;
 }
 .card-footer {
     border-top: 1px solid #dddddd;
     text-align: right;
     margin-top: 20px;
+    padding: 15px 0 15px 0;
 }
 /**chip**/
 .chip {

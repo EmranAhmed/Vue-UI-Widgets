@@ -24,7 +24,7 @@
     </div>
 </template>
 <template id="card_template">
-    <div class="card" id="{{ card_id }}">
+    <div class="card" id="{{ card_id }}" style="width: {{ size }}px;">
         <div class="card-header">
             <slot name="header"></slot>
         </div>

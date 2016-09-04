@@ -31,6 +31,7 @@ Vue.component('alert',{
 /**card**/
 Vue.component('card',{
     template : '#card_template',
+    props : ['size'],
     data : function () {
         return {
             "card_id" : "card_" + new Date().getTime()

@@ -12,8 +12,8 @@
     <button @click="show = true">Show Modal</button>
     <modal :show.sync="show"></modal>
 
-    <button @click="show2 = true">Show Modal</button>
-    <modal :show.sync="show2">
+    <button @click="show = true">Show Modal</button>
+    <modal :show.sync="show">
         <div slot="header">
             <h3>This is custom header</h3>
         </div>
@@ -25,10 +25,18 @@
         >
         <div slot="tabdata">
             <div>
-                <h3>Form Builder</h3>
+                <h3>Tab 1 Heading</h3>
+                <div>
+                    <p>
+                        This is tab1 content
+                    </p>
+                </div>
             </div>
-            <div class="post_type_settings">
-                <h3>Post Settings</h3>
+            <div>
+                <h3>tab 2 Heading</h3>
+                <p>
+                    Anything can be added how i want !
+                </p>
             </div>
         </div>
     </tabs>
@@ -71,9 +79,12 @@
         </div>
     </accordion>
     <h2>Card</h2>
-    <card>
-        <div slot="header"><h3>Default Header</h3></div>
-        <div slot="content">This is some content</div>
+    <card size="400">
+        <div slot="header"><h3>Card Header</h3></div>
+        <div slot="content">
+            <img src="images/nature.jpg" alt="Nature" width="100%"><br><br>
+            This is some content for card header to show you how it works ! Hope, You will like it ! Enjoy !
+        </div>
         <div slot="footer">This is card footer</div>
     </card>
     <h2>Chip</h2>
@@ -123,7 +134,6 @@
         el : '#app',
         data : {
             show : false,
-            show2 : false
         }
     });
 </script>
