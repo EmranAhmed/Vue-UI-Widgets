@@ -182,7 +182,7 @@ var app = new Vue({
 
 ## Tabs
 
-![tabs](http://mithublue.github.io/images/vue-ui-widgets/tabs.png)
+![notice](http://mithublue.github.io/images/vue-ui-widgets/notice.png)
 
 ###### Code
 ```
