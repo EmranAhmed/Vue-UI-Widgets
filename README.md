@@ -212,4 +212,4 @@ var app = new Vue({
 
 Mithu A Quayium
 
-<a target="_blank" href="http://cybercraftit.com/">Offisial Site</a> | <a target="_blank" href="https://profiles.wordpress.org/mithublue">Wordpress</a> | <a target="_blank" href="https://www.linkedin.com/in/mithu-quayium-9b594630?trk=hp-identity-name">Linked In</a> | <a target="_blank" href="https://twitter.com/mithuaquayium">Twitter</a> | <a target="_blank" href="https://plus.google.com/u/0/+MithuAQuayium-MAQ">Google Plus</a> | <a target="_blank" href="https://www.facebook.com/mithu.quayium">Facebook</a>
+<a href="http://cybercraftit.com/" target="_blank">Offisial Site</a> | <a target="_blank" href="https://profiles.wordpress.org/mithublue">Wordpress</a> | <a target="_blank" href="https://www.linkedin.com/in/mithu-quayium-9b594630?trk=hp-identity-name">Linked In</a> | <a target="_blank" href="https://twitter.com/mithuaquayium">Twitter</a> | <a target="_blank" href="https://plus.google.com/u/0/+MithuAQuayium-MAQ">Google Plus</a> | <a target="_blank" href="https://www.facebook.com/mithu.quayium">Facebook</a>
