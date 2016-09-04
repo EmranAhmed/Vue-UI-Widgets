@@ -21,7 +21,12 @@ Vue.component('accordion',{
 /**alert**/
 Vue.component('alert',{
     template : '#alert-template',
-    props : ['type']
+    props : ['type'],
+    methods : {
+        removeAlert : function(e) {
+            e.target.parentElement.remove();
+        }
+    }
 });
 /**card**/
 Vue.component('card',{
